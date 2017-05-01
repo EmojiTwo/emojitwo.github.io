@@ -31,11 +31,11 @@ In its initial release in April 2017, Emojitwo did not contain any additional ar
 
 Emojitwo shall eventually include graphics for new emojis:
 
-  - Characters defined in the Unicode Standard 10.0 (June 2017) and later.
-  - Sequences documented in [Unicode Emoji 4.0](http://www.unicode.org/reports/tr51/tr51-9.html) (November 2016) and later (UTR#51), e.g. flags.
-  - Characters extended in [Unicode Emoji 6.0](http://www.unicode.org/reports/tr51/proposed.html) and later (UTS#51).
+  - Characters defined in the [Unicode Standard 10.0](http://emojipedia.org/unicode-10.0/) (June 2017) and later.
+  - Sequences documented in [Unicode Emoji 4.0](http://emojipedia.org/emoji-4.0/) (November 2016) and later ([UTR#51](http://www.unicode.org/reports/tr51/tr51-9.html)), e.g. gender variants and flags.
+  - Characters extended in [Unicode Emoji 6.0](http://emojipedia.org/emoji-5.0/) and later ([UTS#51](http://www.unicode.org/reports/tr51/proposed.html)).
   - Existing Unicode characters without the `Emoji` property, especially to match other vendors (especially Microsoft and Samsung).
-  - Custom sequences and alternatives, especially those [supported by other vendors]().
+  - Custom sequences and alternatives, especially those [supported by other vendors](https://docs.google.com/spreadsheets/d/1KQDH9uArJr-8m4UvAEd02ixaX_-wauSwjy9qYCwIOvE/pubhtml).
   - Emojitwo shall adopt a more restricted color palette. Actual changes will be subtle and barely noticable. This will affect flags.
 
 ## How to contribute to the Emoji Two library
