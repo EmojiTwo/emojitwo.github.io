@@ -1,27 +1,36 @@
-# Emojitwo 
+Emojitwo 
+========
 
-Version 2.x of [Emojione] is no longer supported by [Ranks.com]. 
+Version 2.x of Emojione is no longer supported by [Ranks.com](https://emojione.com). 
 Version 3 has a slightly different design and new, more restrictive licensing terms.
 Some people prefer the flat cartoon design and the FOSS license with actual access to the SVG sources.
-Therefore, we created a fork of Emojione version 2.2.7 as Emojitwo with initial version 2.3.
+Therefore, we created a fork of Emojione version 2.2.7 as Emojitwo with initial version 2.3. 
 The artwork of this second generation of the web's first complete open source emoji set is and will stay 100% free.
 
-## Differences between Emojitwo and Emojione 2.x
+Differences from Emojione 2.2
+-----------------------------
 
 Emojitwo is restricted to the artwork, i.e. image files.
 SVG is its native format. Everything else is derived from that.
 
-In its initial release in April 2017, Emojitwo did not contain any additional artwork.
+As of its initial release in April 2017, Emojitwo did not contain any additional artwork.
 
 ### Additions
 
-+ Unicode 9 beta emojis Rifle and Modern Penthatlon have been resurrected.
+![](https://rawgit.com/EmojiTwo/emojitwo/master/png/1f946.png) ![](https://rawgit.com/EmojiTwo/emojitwo/master/png/1f93b.png) ![](https://rawgit.com/EmojiTwo/emojitwo/master/png/1f1f8-1f1fa.png)
+
++ Unicode 9 beta emojis Rifle and Modern Pentathlon have been resurrected: [U+1F946 &#x1f946;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f946.svg), [U+1F93B &#x1f93b;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f93b.svg).
++ Flag for deprecated region code `SU`: [U+1F1F8+1F1FA &#x1f1f8;&#x1f1fa;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f1f8-1f1fa.svg).
 
 ### Changes
 
 * Documentation has been updated to
   1. encourage contributions to the artwork,
-  2. use _Emoji Two_ instead of _Emoji One_ where appropriate.
+  2. use _Emojitwo_ or _Emoji Two_ instead of _Emojione_ or _Emoji One_ where appropriate.
+* Bed looks more similar to Sleeping Accomodation: [U+1F6CF &#x1f6cf;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f6cf.svg) vs. [U+1F6CC &#x1f6cf;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f6cc.svg)
+* Some details have been removed, e.g. water waves for some marine animals.
+* Some minor color optimizations.
+* SVG source code prettified.
 
 ### Removals
 
@@ -32,13 +41,14 @@ In its initial release in April 2017, Emojitwo did not contain any additional ar
 Emojitwo shall eventually include graphics for new emojis:
 
   - Characters defined in the [Unicode Standard 10.0](http://emojipedia.org/unicode-10.0/) (June 2017) and later.
-  - Sequences documented in [Unicode Emoji 4.0](http://emojipedia.org/emoji-4.0/) (November 2016) and later ([UTR#51](http://www.unicode.org/reports/tr51/tr51-9.html)), e.g. gender variants and flags.
-  - Characters extended in [Unicode Emoji 6.0](http://emojipedia.org/emoji-5.0/) and later ([UTS#51](http://www.unicode.org/reports/tr51/proposed.html)).
-  - Existing Unicode characters without the `Emoji` property, especially to match other vendors (especially Microsoft and Samsung).
+  - Sequences documented in [Unicode Emoji 4.0](http://emojipedia.org/emoji-4.0/) (November 2016, [UTR#51](http://www.unicode.org/reports/tr51/tr51-9.html)), e.g. gender variants.
+  - Characters extended in [Unicode Emoji 5.0](http://emojipedia.org/emoji-5.0/) (May 2017) and later ([UTS#51](http://www.unicode.org/reports/tr51/)), e.g. flags.
+  - Existing Unicode characters without the `Emoji` property, especially to match other vendors (like Microsoft and Samsung).
   - Custom sequences and alternatives, especially those [supported by other vendors](https://docs.google.com/spreadsheets/d/1KQDH9uArJr-8m4UvAEd02ixaX_-wauSwjy9qYCwIOvE/pubhtml).
   - Emojitwo shall adopt a more restricted color palette. Actual changes will be subtle and barely noticable. This will affect flags.
 
-## How to contribute to the Emoji Two library
+How to contribute to the Emojitwo library
+-----------------------------------------
 
 ### Bugs
 * Check the [current issues](/EmojiTwo/emojitwo/issues/) to be sure the bug has not already been reported.
@@ -67,7 +77,8 @@ Emojitwo shall eventually include graphics for new emojis:
 * Most existing SVG files are minified. This *will* change. 
   New contributions *should* indent code to make it more readable.
 * We support manual editing of SVG source code and therefore prefer semantic elements like `<ellipse>` and `<rect>` over more concise `path` notation.
-* For legacy reasons, we currently prefer SVG attributes over CSS styles, e.g. `fill="#F00BA7"` instead of `style="fill: #F00BA7"`. This *may* change in the future.
+* For legacy reasons, we currently prefer SVG attributes over CSS styles, e.g. `fill="#F00BA7"` instead of `style="fill: #F00BA7"`.
+  This *may* change in the future.
 * Contributions should reuse colors already used within the project. Documentation of the Emojitwo palette shall follow.
 * All `<g>` elements *should* have a self-documenting `id` attribute, e.g. `mouth` instead of `g12`.
 * Every file *should* be self-documenting with proper elements.
@@ -75,7 +86,8 @@ Emojitwo shall eventually include graphics for new emojis:
   - `<desc>`Codepoint(s), additional info`</desc>`
   - We currently do not embed meta data like Dublin Core, but this *may* change.
 
-## Emojione 2.x Artwork License
+Emojione 2.x Artwork License
+----------------------------
 
 *  Applies to all PNG and SVG files as well as any adaptations made.
     *  [License](LICENSE.md): Creative Commons Attribution 4.0 International
@@ -149,7 +161,8 @@ Also helpful:
     - on-screen in credits
     - social media
 
-## Information
+Information
+-----------
 
 ### Bug reports
 
@@ -159,21 +172,23 @@ If you discover any bugs, feel free to create an issue on GitHub. We also welcom
  *  https://github.com/Ranks/emojione-assets/issues
  *  https://github.com/Ranks/emojione/issues
 
+We are trying to backport all applicable issues from the the two Emojione repositories linked to above.
+
 ### Contact
 
-If you have any questions, comments, or concerns you are welcome to contact the major contributors directly.
+If you have any questions, comments or concerns you are welcome to contact the maintainers directly.
 
 * https://twitter.com/informoji
-* [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Ranks/emojione?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ### Alternatives
+
 We sincerely hope that you choose to use Emojitwo and support our project, but if you feel like it's not for you, please have a look at these possible alternatives:
 
-* [Emojione 1.5.2 (SVG/PNG)](/Ranks/emojione-legacy/) (CC-BY-4.0)
-* [Emojione 3.0 (PNG)](/Ranks/emojione-legacy/) (CC-BY-4.0)
-* [Twitter Twemoji (SVG/PNG)](/twitter/twemoji/) (CC-BY-4.0)
-* [Google Noto Emoji (SVG/PNG)](/googlei18n/noto-emoji/) (Apache License 2.0)
-* [Emojidex (SVG)](/emojidex/emojidex-vectors)/[(PNG)](https://github.com/emojidex/emojidex-rasters) (custom license)
+* [Emojione 1.5.2 (SVG/PNG)](https://github.com/Ranks/emojione-legacy/) (CC-BY-4.0)
+* [Emojione 3.0 (PNG)](https://github.com/Ranks/emojione-legacy/) (CC-BY-4.0)
+* [Twitter Twemoji (SVG/PNG)](https://github.com/twitter/twemoji/) (CC-BY-4.0)
+* [Google Noto Emoji (SVG/PNG)](https://github.com/googlei18n/noto-emoji/) (Apache License 2.0)
+* [Emojidex (SVG)](https://github.com/emojidex/emojidex-vectors)/[(PNG)](https://github.com/emojidex/emojidex-rasters) (custom license)
 
-[Emojione]: /Ranks/emojione/
+[Emojione]: https://github.com/Ranks/emojione/
 [Ranks.com]: http://emojione.com
