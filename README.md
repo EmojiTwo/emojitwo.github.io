@@ -29,7 +29,7 @@ As of its initial release in April 2017, Emojitwo did not contain any additional
   2. use _Emojitwo_ or _Emoji Two_ instead of _Emojione_ or _Emoji One_ where appropriate.
 * Bed looks more similar to Sleeping Accomodation: [U+1F6CF &#x1f6cf;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f6cf.svg) vs. [U+1F6CC &#x1f6cf;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f6cc.svg)
 * Some details have been removed, e.g. water waves for some marine animals.
-* Some minor color optimizations.
+* Some minor color optimizations, e.g. for genders, restriction signs and peace sign.
 * SVG source code prettified.
 
 ### Removals
@@ -163,6 +163,8 @@ Also helpful:
 
 Information
 -----------
+
+[![Emojitwo sprite map](https://rawgit.com/EmojiTwo/emojitwo/master/sprites/sprites.png)](https://github.com/EmojiTwo/emojitwo/blob/master/sprites/sprites.svg)
 
 ### Bug reports
 
