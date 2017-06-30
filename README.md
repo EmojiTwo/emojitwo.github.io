@@ -1,8 +1,9 @@
 Emojitwo 
 ========
 
-Version 2.x of Emojione is no longer supported by [Ranks.com](https://emojione.com). 
-Version 3 has a slightly different design and new, more restrictive licensing terms.
+Version 2 of the Emojione set is no longer supported by [EmojiOne Inc.](https://www.emojione.com) (nor Ranks.com). 
+Version 3 has a slightly different design and new, more restrictive licensing terms. 
+Access to high-resolution bitmaps and vector sources is now restricted to paying customers.
 Some people prefer the flat cartoon design and the FOSS license with actual access to the SVG sources.
 Therefore, we created a fork of Emojione version 2.2.7 as Emojitwo with initial version 2.3. 
 The artwork of this second generation of the web's first complete open source emoji set is and will stay 100% free.
@@ -27,10 +28,11 @@ As of its initial release in April 2017, Emojitwo did not contain any additional
 * Documentation has been updated to
   1. encourage contributions to the artwork,
   2. use _Emojitwo_ or _Emoji Two_ instead of _Emojione_ or _Emoji One_ where appropriate.
-* Bed looks more similar to Sleeping Accomodation: [U+1F6CF &#x1f6cf;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f6cf.svg) vs. [U+1F6CC &#x1f6cf;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f6cc.svg)
+* Bed looks more similar to Sleeping Accomodation: [U+1F6CF &#x1f6cf;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f6cf.svg) vs. [U+1F6CC &#x1f6cc;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f6cc.svg)
 * Some details have been removed, e.g. water waves for some marine animals.
 * Some minor color optimizations, e.g. for genders, restriction signs and peace sign.
 * SVG source code prettified.
+* New graphic for Shark emoji: [U+1F988 &#x1f988;](https://github.com/EmojiTwo/emojitwo/blob/master/svg/1f988.svg). 
 
 ### Removals
 
@@ -171,8 +173,8 @@ Information
 If you discover any bugs, feel free to create an issue on GitHub. We also welcome the open-source community to contribute to the project by forking it and issuing pull requests.
 
  *  https://github.com/EmojiTwo/emojitwo/issues
- *  https://github.com/Ranks/emojione-assets/issues
- *  https://github.com/Ranks/emojione/issues
+ *  https://github.com/emojione/emojione-assets/issues
+ *  https://github.com/emojione/emojione/issues
 
 We are trying to backport all applicable issues from the the two Emojione repositories linked to above.
 
