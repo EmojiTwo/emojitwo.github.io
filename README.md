@@ -53,8 +53,8 @@ How to contribute to the Emojitwo library
 -----------------------------------------
 
 ### Bugs
-* Check the [current issues](/EmojiTwo/emojitwo/issues/) to be sure the bug has not already been reported.
-* If you have written a patch for the bug submit a [pull request](/EmojiTwo/emojitwo/pulls) including your patch.
+* Check the [current issues](https://github.com/EmojiTwo/emojitwo/issues/) to be sure the bug has not already been reported.
+* If you have written a patch for the bug submit a [pull request](https://github.com/EmojiTwo/emojitwo/pulls/) including your patch.
 * Include a brief description of the issue and how your patch will solve it.
 
 ### Emoji artwork
