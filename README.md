@@ -93,8 +93,8 @@ Emojione 2.x Artwork License
 
 *  Applies to all PNG and SVG files as well as any adaptations made.
     *  [License](LICENSE.md): Creative Commons Attribution 4.0 International
-    *  Human Readable License: http://creativecommons.org/licenses/by/4.0/
-    *  Complete Legal Terms: http://creativecommons.org/licenses/by/4.0/legalcode
+    *  Human Readable License: <http://creativecommons.org/licenses/by/4.0/>
+    *  Complete Legal Terms: <http://creativecommons.org/licenses/by/4.0/legalcode>
   
 ### Emojione Artwork Attribution
 
@@ -123,11 +123,11 @@ In section 3(a)(1) of the CC-BY 4.0 legal terms, it lists the following as the g
 Must contain:
 - The original name _Emojione_ (or _Emoji One_ or _EmojiOne_) and the forked name _Emojitwo_ (or _Emoji Two_).
 - Links to the repository and Ranks.com's website
-    - https://github.com/EmojiTwo/emojitwo/ or https://emojitwo.github.io
-    - https://www.emojione.com
+    - <https://github.com/EmojiTwo/emojitwo/> or <https://emojitwo.github.io>
+    - <https://www.emojione.com>
 - The title and a link to the Creative Commons license
     - Creative Commons Attribution International 4.0 (CC-BY 4.0)
-    - https://creativecommons.org/licenses/by/4.0/legalcode
+    - <https://creativecommons.org/licenses/by/4.0/legalcode>
 
 Also helpful:
 - Make sure it does not look like Ranks.com or the Emojitwo community created or endorsed your product.
@@ -172,9 +172,9 @@ Information
 
 If you discover any bugs, feel free to create an issue on GitHub. We also welcome the open-source community to contribute to the project by forking it and issuing pull requests.
 
- *  https://github.com/EmojiTwo/emojitwo/issues
- *  https://github.com/emojione/emojione-assets/issues
- *  https://github.com/emojione/emojione/issues
+ *  <https://github.com/EmojiTwo/emojitwo/issues>
+ *  <https://github.com/emojione/emojione-assets/issues>
+ *  <https://github.com/emojione/emojione/issues>
 
 We are trying to backport all applicable issues from the the two Emojione repositories linked to above.
 
@@ -182,7 +182,7 @@ We are trying to backport all applicable issues from the the two Emojione reposi
 
 If you have any questions, comments or concerns you are welcome to contact the maintainers directly.
 
-* https://twitter.com/informoji
+* <https://twitter.com/informoji>
 
 ### Alternatives
 
